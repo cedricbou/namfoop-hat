@@ -22,7 +22,8 @@ latence priment sur tout**, comme dans namfoop. Doc utilisateur : `README.md`.
 hardware/   KiCad, Gerber, BOM                   CERN-OHL-S-2.0
 firmware/   overlay device tree, EEPROM HAT+     GPL-3.0-or-later
 scripts/    un script par geste                  GPL-3.0-or-later
-docs/       cahier des charges, montage, mesures CC-BY-SA-4.0
+docs/       cahier des charges, décisions,      CC-BY-SA-4.0
+            style des issues, montage, mesures
 docs/identite/  copies des images de namfoop   tous droits réservés
 ```
 
@@ -47,6 +48,17 @@ docs/identite/  copies des images de namfoop   tous droits réservés
 issue → branche (`feat|fix|docs/<n°>-…`) → PR « Closes #n » → CI verte → squash merge. Jamais de
 commit direct sur `main`. Un agent n'a ni carte ni banc : il vérifie ERC/DRC et `--dry-run`, et
 demande l'essai matériel à l'utilisateur (étiquette `essai-materiel`).
+
+**Les issues s'écrivent pour le bassiste** : [`docs/style-issues.md`](docs/style-issues.md), skill
+`ecrire-issue`. Types : `epic`, `etude`, `story`, `chore`, `bug`, plus un domaine (`audio`, `midi`,
+`alimentation`, `mecanique`, `commandes`, `logiciel`). Pas de référence de composant ni de nom de
+signal dans le corps : le technique va dans un commentaire `## Cadrage technique`, à lire avant de
+travailler.
+
+**On décide avant de dessiner.** Une `etude` se cadre avec l'utilisateur (une proposition par
+question, jamais seul) et se ferme par une décision dans `docs/decisions/` et le
+[cahier des charges](docs/cahier-des-charges.md) mis à jour. Une décision ne se rouvre que sur une
+mesure ou un fait nouveau.
 
 ## Conventions
 
