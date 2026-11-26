@@ -26,6 +26,7 @@ pédalier MIDI pilote le tout.
 | Liaison audio | I2S du connecteur 40 broches | le chemin le plus court vers le processeur |
 | Convertisseurs | deux codecs stéréo TAC5242 réglés par broches, sans pilote | [décision 0001](decisions/0001-deux-codecs-stereo-regles-par-broches.md) |
 | Chemin vers le Pi | deux lignes I2S d'entrée et deux de sortie, horloge fournie par le Pi | [décision 0001](decisions/0001-deux-codecs-stereo-regles-par-broches.md) |
+| Horloge audio | fournie par le Pi, 48 kHz seulement, pas d'oscillateur sur la carte ; à confirmer par la mesure du prototype | [décision 0002](decisions/0002-le-pi-fournit-l-horloge-audio.md) |
 | Carte son | une seule, 4 entrées et 4 sorties, 48 kHz, mots de 32 bits | [décision 0001](decisions/0001-deux-codecs-stereo-regles-par-broches.md) |
 | Retard des convertisseurs | filtre faible latence : environ 0,3 ms aller-retour, à mesurer sur le prototype | [décision 0001](decisions/0001-deux-codecs-stereo-regles-par-broches.md) |
 | Bruit de fond | 105 dB de dynamique (pondération A), sortie rebouclée sur entrée | [décision 0001](decisions/0001-deux-codecs-stereo-regles-par-broches.md) |
@@ -36,7 +37,6 @@ pédalier MIDI pilote le tout.
 
 | Sujet | Demande de départ | Étude |
 |---|---|---|
-| Horloge audio | — | #5 |
 | Entrées | 4 entrées symétriques ; la basse demande une haute impédance | #6 |
 | Sorties | 4 sorties symétriques : sondier, in-ears | #7 |
 | Format, prises, boîtier | — | #8 |
