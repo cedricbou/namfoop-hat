@@ -5,7 +5,7 @@ SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 
 # 0001 · Chemin audio : deux codecs stéréo réglés par broches, sur deux lignes I2S du Pi
 
-**Statut : proposée.**
+**Statut : adoptée.**
 **Étude :** #4
 
 **Contexte.** Il faut 4 entrées et 4 sorties à 48 kHz, vues par namfoop comme une seule carte son,
