@@ -1,0 +1,32 @@
+SPDX-License-Identifier: CERN-OHL-S-2.0
+SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+
+namfoop-hat — carte d'extension Raspberry Pi 5 pour namfoop
+Copyright (C) 2026 les contributeurs de namfoop-hat
+
+Notices au sens de la section 1.10 de la CERN Open Hardware Licence v2 -
+Strongly Reciprocal (CERN-OHL-S-2.0). Ne les retirer que si elles ne
+s'appliquent plus à la source modifiée (section 3.2) ; les compléter pour
+ses propres modifications.
+
+1. Licence. La source de la carte (hardware/) est sous CERN-OHL-S-2.0,
+   texte dans LICENSE. Le firmware et les scripts (firmware/, scripts/) sont
+   sous GPL-3.0-or-later, la documentation (docs/) sous CC-BY-SA-4.0 ;
+   textes dans LICENSES/.
+
+2. Source Location. https://github.com/cedricbou/namfoop-hat
+   Conformément à la section 4, tout Produit doit afficher visiblement et
+   durablement sa Source Location sur sa sérigraphie, avec l'identifiant de
+   licence et la révision :
+       Source: github.com/cedricbou/namfoop-hat
+       CERN-OHL-S-2.0  rev X.Y
+   Un Produit fait à partir d'une source modifiée y indique la Source
+   Location de cette source modifiée (section 3.3 c).
+
+3. Absence de garantie. La source et les Produits sont fournis « en
+   l'état », sans aucune garantie, explicite ou implicite (section 6 de la
+   licence).
+
+4. Marques. « namfoop », « NamFoop », leur logo et leur icône ne sont pas
+   couverts par ces licences : voir TRADEMARKS.md. Raspberry Pi est une
+   marque de Raspberry Pi Ltd.

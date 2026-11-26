@@ -1,0 +1,50 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+-->
+
+# CLAUDE.md — namfoop-hat
+
+Carte d'extension Raspberry Pi 5 pour namfoop (basse, temps réel). **La fiabilité en live et la
+latence priment sur tout**, comme dans namfoop. Doc utilisateur : `README.md`.
+
+## Ce dépôt et namfoop
+
+- namfoop voit la carte comme une carte ALSA plus un profil : ce dépôt ne modifie pas namfoop et
+  n'y ouvre ni issue ni PR. Un profil de carte ou un pilote à ajouter côté namfoop se demande à
+  l'utilisateur.
+- Ce que namfoop sait déjà (profils de carte, latence), on le lit dans son guide au lieu de le
+  redécrire.
+
+## Carte
+
+```
+hardware/   KiCad, Gerber, BOM                   CERN-OHL-S-2.0
+firmware/   overlay device tree, EEPROM HAT+     GPL-3.0-or-later
+scripts/    un script par geste                  GPL-3.0-or-later
+docs/       cahier des charges, montage, mesures CC-BY-SA-4.0
+```
+
+## Licences (non négociables)
+
+- Chaque fichier a sa licence SPDX : en-tête, ou `REUSE.toml` pour ce qui n'en accepte pas.
+  `reuse lint` doit passer (la CI le vérifie).
+- Le nom et le logo namfoop ne sont sous aucune licence du dépôt (`TRADEMARKS.md`) ; le logo reste
+  une empreinte séparée.
+- La sérigraphie porte la Source Location, la licence et la révision (`NOTICE`).
+- Reprendre un fichier d'ailleurs : licence compatible avec le dossier, en-tête d'origine gardé,
+  texte ajouté dans `LICENSES/`.
+- Rien ne versionne un son, un modèle, une IR, une police ni une fiche technique.
+- `[TITULAIRE — à confirmer]` : le titulaire du nom et le mainteneur du CLA ; ne pas le remplacer
+  sans l'accord de l'utilisateur.
+
+## Cycle
+
+issue → branche (`feat|fix|docs/<n°>-…`) → PR « Closes #n » → CI verte → squash merge. Jamais de
+commit direct sur `main`. Un agent n'a ni carte ni banc : il vérifie ERC/DRC et `--dry-run`, et
+demande l'essai matériel à l'utilisateur (étiquette `essai-materiel`).
+
+## Conventions
+
+- Tout en **français** ; identifiants en anglais.
+- Un fait mesuré donne la révision de la carte, le banc et la date, et **remplace** le précédent.

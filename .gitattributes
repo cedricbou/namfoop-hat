@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+
+# Fichiers KiCad : texte, fins de ligne Unix, fusion manuelle (pas de fusion ligne à ligne)
+*.kicad_pro  text eol=lf merge=binary
+*.kicad_sch  text eol=lf merge=binary
+*.kicad_pcb  text eol=lf merge=binary
+*.kicad_sym  text eol=lf
+*.kicad_mod  text eol=lf
+
+# Gerber et perçages : générés, ne pas les comparer ligne à ligne
+*.gbr        text eol=lf -diff linguist-generated
+*.drl        text eol=lf -diff linguist-generated
+hardware/fabrication/** linguist-generated
+
+*.sh         text eol=lf

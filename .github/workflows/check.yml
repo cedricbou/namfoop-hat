@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  licences:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaque fichier a sa licence (REUSE)
+        uses: fsfe/reuse-action@v5
+
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shellcheck
+        run: |
+          mapfile -t files < <(git ls-files 'scripts/**' | xargs -r grep -lE '^#!.*(ba)?sh' || true)
+          if ((${#files[@]})); then shellcheck -x "${files[@]}"; else echo "aucun script"; fi
+
+  non-versionnes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aucun son, modèle, police ni fiche technique
+        run: |
+          if git ls-files | grep -iE '\.(nam|wav|flac|aiff?|mp3|ttf|otf|woff2?|pdf)$'; then
+            echo "Ces fichiers ne se versionnent pas : les retirer." >&2
+            exit 1
+          fi
