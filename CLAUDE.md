@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
 
 # CLAUDE.md — namfoop-hat
@@ -23,14 +23,18 @@ hardware/   KiCad, Gerber, BOM                   CERN-OHL-S-2.0
 firmware/   overlay device tree, EEPROM HAT+     GPL-3.0-or-later
 scripts/    un script par geste                  GPL-3.0-or-later
 docs/       cahier des charges, montage, mesures CC-BY-SA-4.0
+docs/identite/  copies des images de namfoop   tous droits réservés
 ```
 
 ## Licences (non négociables)
 
 - Chaque fichier a sa licence SPDX : en-tête, ou `REUSE.toml` pour ce qui n'en accepte pas.
   `reuse lint` doit passer (la CI le vérifie).
-- Le nom et le logo namfoop ne sont sous aucune licence du dépôt (`TRADEMARKS.md`) ; le logo reste
-  une empreinte séparée.
+- Le nom et l'identité visuelle namfoop sont tous droits réservés (`LicenseRef-TousDroitsReserves`,
+  `TRADEMARKS.md`) : `docs/identite/` en est une copie conforme du dépôt namfoop, qui fait
+  référence ; ne jamais les redessiner ici. Le logo de sérigraphie reste une empreinte séparée.
+- Chaque fichier écrit porte `SPDX-FileCopyrightText: © <année> les auteurs de namfoop-hat
+  (AUTHORS.md)` ; un contributeur s'ajoute à `AUTHORS.md`.
 - La sérigraphie porte la Source Location, la licence et la révision (`NOTICE`).
 - Reprendre un fichier d'ailleurs : licence compatible avec le dossier, en-tête d'origine gardé,
   texte ajouté dans `LICENSES/`.

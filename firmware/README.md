@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
 
 # firmware/ — ce qui fait reconnaître la carte
@@ -10,7 +10,7 @@ Sous **GPL-3.0-or-later**, comme namfoop. Chaque fichier source commence par :
 <!-- REUSE-IgnoreStart -->
 ```
 SPDX-License-Identifier: GPL-3.0-or-later
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 ```
 <!-- REUSE-IgnoreEnd -->
 

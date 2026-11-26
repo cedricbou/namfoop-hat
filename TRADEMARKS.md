@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
 
 # Nom et logo namfoop
@@ -10,7 +10,11 @@ bannière (ceux de `docs/identite/` dans le dépôt namfoop) sont utilisés par 
 **[NOM DU TITULAIRE]**, pour désigner ses projets, et sont **réservés**.
 
 Ils ne sont pas déposés comme marque : on n'écrit donc pas ®. Le logo, l'icône, l'onde et la
-bannière sont des œuvres protégées par le droit d'auteur, sans formalité.
+bannière sont des œuvres protégées par le droit d'auteur dès leur création, sans formalité :
+© 2026 [NOM DU TITULAIRE], **tous droits réservés**
+([`LICENSES/LicenseRef-TousDroitsReserves.txt`](LICENSES/LicenseRef-TousDroitsReserves.txt)). Leurs
+fichiers dans ce dépôt : [`docs/identite/`](docs/identite/README.md), et l'empreinte de sérigraphie
+`hardware/bibliotheque/namfoop-hat.pretty/Logo_namfoop_30mm.kicad_mod`.
 
 Nom et logo ne sont couverts par **aucune** des licences de ce dépôt : ni la CERN-OHL-S-2.0 de la carte, ni
 la GPL-3.0-or-later du firmware et des scripts, ni la CC-BY-SA-4.0 de la documentation. Ces licences
@@ -38,7 +42,7 @@ vendre sous le nom namfoop.
 
 Une carte fabriquée par quelqu'un d'autre que [NOM DU TITULAIRE], modifiée ou non, **retire
 le logo et le nom de la sérigraphie** et prend son propre nom, sauf autorisation écrite. Le logo
-est placé sur une empreinte à part (`hardware/`), qu'on supprime sans toucher au reste du circuit.
+est une empreinte à part (`Logo_namfoop_30mm`), qu'on supprime sans toucher au reste du circuit.
 
 ## Autres marques
 

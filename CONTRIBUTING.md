@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
 
 # Contribuer à namfoop-hat
@@ -35,13 +35,14 @@ Un fichier versé dans un dossier prend la licence de ce dossier (voir la sectio
 | `hardware/` | CERN-OHL-S-2.0 | dans le cartouche KiCad (voir `hardware/README.md`), sinon `REUSE.toml` |
 | `firmware/`, `scripts/` | GPL-3.0-or-later | en tête de chaque fichier source |
 | `docs/` et les `.md` | CC-BY-SA-4.0 | commentaire HTML en tête du fichier |
+| images de `docs/identite/`, logo de sérigraphie | tous droits réservés | `REUSE.toml` ; on ne les modifie pas ici |
 
 L'en-tête d'un fichier qu'on écrit :
 
 <!-- REUSE-IgnoreStart -->
 ```sh
 # SPDX-License-Identifier: GPL-3.0-or-later
-# SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+# SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 ```
 <!-- REUSE-IgnoreEnd -->
 

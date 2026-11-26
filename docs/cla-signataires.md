@@ -1,6 +1,6 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
 
 # Signataires de l'accord de contributeur

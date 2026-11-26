@@ -1,0 +1,17 @@
+Tous droits réservés.
+
+Le nom namfoop, son logo, son icône, son onde et sa bannière, ainsi que leurs
+reproductions (fichiers de docs/identite/ et empreinte de sérigraphie
+hardware/bibliotheque/namfoop-hat.pretty/Logo_namfoop_30mm.kicad_mod), sont des
+œuvres de leur auteur, désigné dans AUTHORS.md, protégées par le droit d'auteur
+(Code de la propriété intellectuelle, livre I) dès leur création, sans
+formalité.
+
+Aucune licence n'est accordée sur ces fichiers, ni par la CERN-OHL-S-2.0, ni
+par la GPL-3.0-or-later, ni par la CC-BY-SA-4.0 qui couvrent le reste du dépôt.
+Toute reproduction, représentation, adaptation ou utilisation autre que celles
+que permet TRADEMARKS.md demande l'autorisation écrite de l'auteur.
+
+Sont permis sans autorisation : citer le nom et montrer le logo non modifié pour
+parler de namfoop ou y renvoyer, et redistribuer ce dépôt tel quel, ces fichiers
+compris, avec leurs mentions.

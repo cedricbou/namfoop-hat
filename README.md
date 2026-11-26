@@ -1,7 +1,9 @@
 <!--
 SPDX-License-Identifier: CC-BY-SA-4.0
-SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
+SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 -->
+
+<img src="docs/identite/banniere.svg" alt="namfoop" width="100%">
 
 # namfoop-hat
 
@@ -19,7 +21,9 @@ hardware/      la carte : schéma et circuit KiCad, Gerber, nomenclature (BOM)  
 firmware/      ce qui tourne pour la carte : overlay device tree, EEPROM          GPL-3.0-or-later
 scripts/       outils : fabrication, contrôle, flashage de l'EEPROM               GPL-3.0-or-later
 docs/          cahier des charges, guide de montage, mesures                     CC-BY-SA-4.0
+docs/identite/ logo, onde, icône, bannière de namfoop                         tous droits réservés
 LICENSES/      le texte de chaque licence
+AUTHORS.md     qui a créé quoi
 ```
 
 Chaque dossier a son `README.md` : ce qu'on y range et comment.
@@ -55,15 +59,17 @@ sa sérigraphie**, lisiblement, avec la licence et la révision. Le texte à tra
 carte dérivée en y mettant l'adresse de sa propre source :
 
 ```
+namfoop-hat rev X.Y  © 2026 [NOM DU TITULAIRE]
 Source: github.com/cedricbou/namfoop-hat
-CERN-OHL-S-2.0  rev X.Y
+CERN-OHL-S-2.0
 ```
 
 Ce rappel fait partie des Notices de la carte (voir [`NOTICE`](NOTICE)) : une version modifiée ne
 le retire pas, elle le met à jour.
 
-**Le nom et le logo n'en font pas partie.** « namfoop », son logo et son icône sont réservés et ne
-sont couverts par aucune des trois licences : une carte dérivée vit sous son propre nom. Ce qui est
+**Le nom et le logo n'en font pas partie.** « namfoop », son logo, son icône, son onde et sa
+bannière ([`docs/identite/`](docs/identite/), et l'empreinte du logo de sérigraphie) sont **tous
+droits réservés** et ne sont couverts par aucune des trois licences : une carte dérivée vit sous son propre nom. Ce qui est
 permis (dire « compatible namfoop », par exemple) est détaillé dans
 [`TRADEMARKS.md`](TRADEMARKS.md).
 
@@ -77,3 +83,10 @@ licence en plus de celles-ci, sans retirer à personne ce que les licences libre
 
 Raspberry Pi est une marque de Raspberry Pi Ltd. namfoop-hat n'est ni affilié à Raspberry Pi Ltd,
 ni approuvé par elle.
+
+## Droits d'auteur
+
+© 2026 [NOM DU TITULAIRE] et les auteurs de namfoop-hat ([`AUTHORS.md`](AUTHORS.md)). Chaque
+fichier porte sa mention de droit d'auteur et sa licence ; l'historique git en date chaque
+version. Le nom et l'identité visuelle de namfoop sont © 2026 [NOM DU TITULAIRE], tous droits
+réservés.
