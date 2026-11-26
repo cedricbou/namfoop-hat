@@ -34,4 +34,7 @@ date, et **remplace** la précédente au lieu de s'empiler.
 
 ## Les décisions
 
-Aucune pour l'instant : les études ouvertes sont listées dans l'épique de cadrage (#3).
+- [0001 · Chemin audio : deux codecs stéréo réglés par broches, sur deux lignes I2S du Pi](0001-deux-codecs-stereo-regles-par-broches.md)
+- [0002 · Horloge audio : le Pi la fournit, à 48 kHz seulement](0002-le-pi-fournit-l-horloge-audio.md)
+
+Les études encore ouvertes sont listées dans l'épique de cadrage (#3).

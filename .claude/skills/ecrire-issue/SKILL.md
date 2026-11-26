@@ -26,6 +26,9 @@ d'écrire.
 2. Chercher : fiches techniques (lien, jamais de PDF versionné), pilotes du noyau du Pi, cartes du
    commerce qui ont résolu la même question, contraintes de namfoop (son `docs/guide.md`, ses
    ADR). Ce qu'on trouve s'ajoute en commentaire, sourcé, en séparant le vérifié du supposé.
+   Un composant ne devient une proposition qu'une fois vérifiées les règles « Composants » du
+   `CLAUDE.md` : boîtier soudable à l'air chaud sans BGA, en stock chez Mouser pour la France,
+   prix relevé à 1 et à 10 pièces.
 3. Poser à l'utilisateur les questions de « À trancher », peu à la fois, chacune avec une réponse
    proposée et ce qu'elle implique. **Ne pas trancher seul.**
 4. Pour chaque réponse : cocher la case, l'écrire dans une décision de `docs/decisions/` (format

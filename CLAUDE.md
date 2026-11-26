@@ -43,6 +43,19 @@ docs/identite/  copies des images de namfoop   tous droits réservés
 - Cédric Boufflers est le titulaire du nom et de l'identité, et le mainteneur du CLA (personne
   physique). La marque n'est pas enregistrée : jamais de ®.
 
+## Composants (non négociables)
+
+- **Soudure de la révision 1** : pochoir, pâte et air chaud, à la main, sans atelier d'assemblage.
+  Jamais de BGA. On préfère un boîtier à pattes (SOIC, TSSOP, QFP) ; un boîtier sans pattes (QFN)
+  reste permis au pas de 0,5 mm ou plus, quand il apporte un vrai gain, et la décision le dit.
+- **Approvisionnement** : un composant ne se propose que s'il s'achète chez Mouser, livré en
+  France, à l'unité ou à la dizaine. On relève sur la page Mouser la référence complète, le stock,
+  le délai et le prix à 1 et à 10 pièces, avec la date ; sans ce relevé, c'est une piste, pas une
+  proposition.
+- **Le choix** cherche le meilleur compromis entre prix en petite quantité, facilité de montage et
+  qualité, et le compare en coût complet : la puce et ce qu'elle impose autour (oscillateur, étage
+  de symétrisation, alimentation).
+
 ## Cycle
 
 issue → branche (`feat|fix|docs/<n°>-…`) → PR « Closes #n » → CI verte → squash merge. Jamais de
