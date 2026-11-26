@@ -11,8 +11,11 @@ Une carte d'extension pour **Raspberry Pi 5** qui donne à [namfoop](https://git
 ce qu'il faut pour jouer de la basse sur scène, sans carte son USB. Elle se branche sur le
 connecteur 40 broches du Pi ; namfoop la voit comme une carte son ALSA munie de son profil.
 
-**État : en conception.** Le cahier des charges (entrées, sorties, alimentation, commandes) s'écrit
-dans [`docs/`](docs/) avant le premier schéma.
+**État : en conception.** Avant le premier schéma, chaque question (convertisseurs, entrées,
+sorties, MIDI, alimentation, format) se tranche dans une étude, et le
+[cahier des charges](docs/cahier-des-charges.md) se remplit au fil des
+[décisions](docs/decisions/). Les études en cours sont listées dans l'épique de cadrage
+([#3](https://github.com/cedricbou/namfoop-hat/issues/3)).
 
 ## Ce que contient le dépôt
 

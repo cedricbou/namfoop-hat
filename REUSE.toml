@@ -25,6 +25,14 @@ precedence = "closest"
 SPDX-FileCopyrightText = "© 2026 les auteurs de namfoop-hat (AUTHORS.md)"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
+# Fichiers dont l'en-tête gênerait la lecture : modèles d'issue (l'en-tête finirait dans
+# l'issue) et skills (l'en-tête YAML doit venir en premier).
+[[annotations]]
+path = [".github/ISSUE_TEMPLATE/**", ".claude/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "© 2026 les auteurs de namfoop-hat (AUTHORS.md)"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
 # Identité visuelle et logo de sérigraphie : tous droits réservés, quelle que soit
 # la licence du dossier qui les contient (TRADEMARKS.md).
 [[annotations]]

@@ -19,9 +19,11 @@ autre licence (double licence). On l'accepte une fois, en cochant la case de la 
 
 **issue → branche → PR → CI verte → squash merge.** Jamais de commit direct sur `main`.
 
-- Une **issue** dit ce que le bassiste veut pouvoir faire, ou ce qui ne va pas, et finit par une
-  rubrique « Terminé quand » qui s'observe sur la carte ou au banc. Étiquettes : `epic`, `story`,
-  `etude` (à trancher avant de dessiner ou de coder), `chore`, `bug`.
+- Une **issue** dit ce que le bassiste veut pouvoir faire, ce qu'il faut décider, ou ce qui ne va
+  pas, et finit par une rubrique « Terminé quand » qui s'observe sur la carte, au banc ou dans le
+  dépôt. Types : `epic`, `etude` (à trancher avant de dessiner ou de coder ; finit par une décision
+  dans `docs/decisions/`), `story`, `chore`, `bug`, plus un domaine. Le style complet :
+  [`docs/style-issues.md`](docs/style-issues.md).
 - Une **branche** par issue : `feat|fix|docs/<n°>-…`.
 - La **PR** dit « Closes #n » et coche l'accord de contributeur.
 

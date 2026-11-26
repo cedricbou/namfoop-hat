@@ -10,11 +10,13 @@ namfoop-hat et en gardant la même licence.
 
 ```
 docs/
-  cla-signataires.md   qui a accepté l'accord de contributeur
+  cahier-des-charges.md  ce que la carte doit faire, en chiffres, au fil des décisions
+  decisions/             une décision par fichier : ce qu'on a tranché et pourquoi
+  style-issues.md        comment s'écrivent les issues (épique, étude, story, chore, bug)
+  cla-signataires.md     qui a accepté l'accord de contributeur
 ```
 
-À venir : le cahier des charges (ce que le bassiste branche, ce qu'il entend, ce qu'il règle), le
-guide de montage et les mesures au banc. Une mesure donne la révision de la carte, le banc et la
+À venir : le guide de montage et les mesures au banc. Une mesure donne la révision de la carte, le banc et la
 date, et **remplace** la précédente au lieu de s'empiler.
 
 Les photos et les captures d'écran sont des œuvres : n'y mettre que les siennes, ou celles dont la
