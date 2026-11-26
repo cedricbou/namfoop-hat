@@ -39,8 +39,8 @@ docs/identite/  copies des images de namfoop   tous droits réservés
 - Reprendre un fichier d'ailleurs : licence compatible avec le dossier, en-tête d'origine gardé,
   texte ajouté dans `LICENSES/`.
 - Rien ne versionne un son, un modèle, une IR, une police ni une fiche technique.
-- `[NOM DU TITULAIRE]` : le titulaire du nom et le mainteneur du CLA, une personne physique ; ne
-  pas le remplacer sans l'accord de l'utilisateur. La marque n'est pas enregistrée : jamais de ®.
+- Cédric Boufflers est le titulaire du nom et de l'identité, et le mainteneur du CLA (personne
+  physique). La marque n'est pas enregistrée : jamais de ®.
 
 ## Cycle
 

@@ -10,7 +10,7 @@ ci-dessous, chacune pour ce qu'elle a créé. L'historique git dit qui a écrit 
 
 ## Auteur principal
 
-**[NOM DU TITULAIRE]** — GitHub [`cedricbou`](https://github.com/cedricbou)
+**Cédric Boufflers** — GitHub [`cedricbou`](https://github.com/cedricbou)
 
 Auteur de namfoop, de son nom et de son identité visuelle (logo, icône, onde, bannière), et de
 namfoop-hat depuis sa création : dépôt ouvert le 26 novembre 2026, première publication la même

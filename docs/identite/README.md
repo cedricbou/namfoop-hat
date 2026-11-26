@@ -23,5 +23,5 @@ Sur la carte : le logo complet ne descend pas sous 90 pixels à l'écran ni sous
 sérigraphie ; il garde autour de lui un vide égal à la hauteur de la lettre `n`. Pour un boîtier ou
 une façade, les couleurs et les polices sont celles de la charte (Chakra Petch pour le marquage).
 
-**Tous droits réservés** : © 2026 [NOM DU TITULAIRE]. Ces fichiers ne sont sous aucune licence
+**Tous droits réservés** : © 2026 Cédric Boufflers. Ces fichiers ne sont sous aucune licence
 libre du dépôt ; ce qui est permis est dans [`TRADEMARKS.md`](../../TRADEMARKS.md).

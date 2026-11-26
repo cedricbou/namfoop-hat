@@ -7,11 +7,11 @@ SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 
 Le nom **NamFoop** (et ses graphies : namfoop, NAMFOOP), son logo, son icône, son onde et sa
 bannière (ceux de `docs/identite/` dans le dépôt namfoop) sont utilisés par leur auteur,
-**[NOM DU TITULAIRE]**, pour désigner ses projets, et sont **réservés**.
+**Cédric Boufflers**, pour désigner ses projets, et sont **réservés**.
 
 Ils ne sont pas déposés comme marque : on n'écrit donc pas ®. Le logo, l'icône, l'onde et la
 bannière sont des œuvres protégées par le droit d'auteur dès leur création, sans formalité :
-© 2026 [NOM DU TITULAIRE], **tous droits réservés**
+© 2026 Cédric Boufflers, **tous droits réservés**
 ([`LICENSES/LicenseRef-TousDroitsReserves.txt`](LICENSES/LicenseRef-TousDroitsReserves.txt)). Leurs
 fichiers dans ce dépôt : [`docs/identite/`](docs/identite/README.md), et l'empreinte de sérigraphie
 `hardware/bibliotheque/namfoop-hat.pretty/Logo_namfoop_30mm.kicad_mod`.
@@ -40,7 +40,7 @@ vendre sous le nom namfoop.
 
 ## Fabriquer sa propre carte
 
-Une carte fabriquée par quelqu'un d'autre que [NOM DU TITULAIRE], modifiée ou non, **retire
+Une carte fabriquée par quelqu'un d'autre que Cédric Boufflers, modifiée ou non, **retire
 le logo et le nom de la sérigraphie** et prend son propre nom, sauf autorisation écrite. Le logo
 est une empreinte à part (`Logo_namfoop_30mm`), qu'on supprime sans toucher au reste du circuit.
 

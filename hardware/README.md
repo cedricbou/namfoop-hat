@@ -29,7 +29,7 @@ Source: github.com/cedricbou/namfoop-hat
 La **sérigraphie** porte, lisiblement et sur une face visible une fois la carte montée :
 
 ```
-namfoop-hat rev X.Y  © 2026 [NOM DU TITULAIRE]
+namfoop-hat rev X.Y  © 2026 Cédric Boufflers
 Source: github.com/cedricbou/namfoop-hat
 CERN-OHL-S-2.0
 ```

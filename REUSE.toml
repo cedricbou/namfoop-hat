@@ -30,5 +30,5 @@ SPDX-License-Identifier = "CC-BY-SA-4.0"
 [[annotations]]
 path = ["docs/identite/*.svg", "docs/identite/*.png", "hardware/bibliotheque/namfoop-hat.pretty/Logo_namfoop_*.kicad_mod"]
 precedence = "override"
-SPDX-FileCopyrightText = "© 2026 [NOM DU TITULAIRE], auteur de namfoop"
+SPDX-FileCopyrightText = "© 2026 Cédric Boufflers, auteur de namfoop"
 SPDX-License-Identifier = "LicenseRef-TousDroitsReserves"
