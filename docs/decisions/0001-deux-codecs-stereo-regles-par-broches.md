@@ -41,8 +41,7 @@ février 2026). La révision 1 se soude au pochoir et à l'air chaud, et tout s'
   rebouclée sur entrée.
 
 **Conséquences.**
-- Horloge (#5) : le Pi est la source ; l'étude porte sur la qualité de cette horloge, plus sur un
-  oscillateur.
+- Horloge : le Pi est la source ([décision 0002](0002-le-pi-fournit-l-horloge-audio.md)).
 - Entrées (#6) et sorties (#7) : la puce accepte et délivre 2 Vrms en différentiel (environ
   +8 dBu) et présente 5 kΩ par broche ; l'adaptation de niveau et la haute impédance pour la basse
   se font devant elle.
