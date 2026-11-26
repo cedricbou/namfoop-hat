@@ -5,7 +5,7 @@ SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
 
 # Accord de contributeur (CLA) — version 1.0
 
-Cet accord est passé entre vous (« le Contributeur ») et **[NOM DU TITULAIRE]**, personne physique (« le
+Cet accord est passé entre vous (« le Contributeur ») et **Cédric Boufflers**, personne physique (« le
 Mainteneur »), qui maintient namfoop-hat. Il porte sur chaque contribution que vous proposez à ce
 dépôt : schéma, circuit, nomenclature, firmware, script, documentation, image (« la Contribution »).
 

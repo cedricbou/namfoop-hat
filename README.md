@@ -59,7 +59,7 @@ sa sérigraphie**, lisiblement, avec la licence et la révision. Le texte à tra
 carte dérivée en y mettant l'adresse de sa propre source :
 
 ```
-namfoop-hat rev X.Y  © 2026 [NOM DU TITULAIRE]
+namfoop-hat rev X.Y  © 2026 Cédric Boufflers
 Source: github.com/cedricbou/namfoop-hat
 CERN-OHL-S-2.0
 ```
@@ -86,7 +86,7 @@ ni approuvé par elle.
 
 ## Droits d'auteur
 
-© 2026 [NOM DU TITULAIRE] et les auteurs de namfoop-hat ([`AUTHORS.md`](AUTHORS.md)). Chaque
+© 2026 Cédric Boufflers et les auteurs de namfoop-hat ([`AUTHORS.md`](AUTHORS.md)). Chaque
 fichier porte sa mention de droit d'auteur et sa licence ; l'historique git en date chaque
-version. Le nom et l'identité visuelle de namfoop sont © 2026 [NOM DU TITULAIRE], tous droits
+version. Le nom et l'identité visuelle de namfoop sont © 2026 Cédric Boufflers, tous droits
 réservés.
