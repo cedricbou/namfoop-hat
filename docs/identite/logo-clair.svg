@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2341 401" width="2341" height="401"
+     role="img" aria-label="namfoop">
+  <title>namfoop — logo sur fond clair</title>
+  <!--
+    SPDX-License-Identifier: LicenseRef-TousDroitsReserves
+    SPDX-FileCopyrightText: © 2026 [NOM DU TITULAIRE], auteur de namfoop. Tous droits réservés.
+    Copie conforme de docs/identite/ du dépôt namfoop, qui fait référence.
+    Logo namfoop, lettres noir d’encre : à poser sur un fond clair.
+    Fond transparent ; sur fond sombre, utiliser logo-sombre.svg.
+    Couleurs de la charte : onde magenta #FF007F, lettres noir d’encre #0F0F14.
+    Repères du dessin (unités du viewBox) : hauteur d'x 236 (y 81 à 317, ligne de base 317),
+    hampe du f jusqu'à y 0, jambage du p jusqu'à y 401 ; fût vertical 63, barre horizontale 60,
+    rayon des angles arrondis 63. L'onde : 7 barres de 33 de large, pas de 58, centrées sur y 182.
+    Tous droits réservés : utilisable pour parler de namfoop ou y renvoyer, pas pour un autre projet.
+  -->
+  <g fill="#FF007F">
+    <rect x="0" y="165" width="33" height="34" rx="16.5"/>
+    <rect x="58" y="141" width="33" height="82" rx="16.5"/>
+    <rect x="116" y="100" width="33" height="164" rx="16.5"/>
+    <rect x="174" y="37" width="33" height="290" rx="16.5"/>
+    <rect x="232" y="100" width="33" height="164" rx="16.5"/>
+    <rect x="290" y="141" width="33" height="82" rx="16.5"/>
+    <rect x="348" y="165" width="33" height="34" rx="16.5"/>
+  </g>
+  <g fill="#0F0F14" fill-rule="evenodd">
+    <path d="M448,317 V89 A8,8 0 0 1 456,81 H625 A63,63 0 0 1 688,144 V317 H625 V141 H511 V317 Z"/>
+    <path d="M730,89 A8,8 0 0 1 738,81 H909 A63,63 0 0 1 972,144 V317 H793 A63,63 0 0 1 730,254
+             V171 H894 A15,15 0 0 0 894,141 H730 Z
+             M801,223 H901 A8,8 0 0 1 909,231 V250 A8,8 0 0 1 901,258 H801 A8,8 0 0 1 793,250
+             V231 A8,8 0 0 1 801,223 Z"/>
+    <path d="M1014,317 V89 A8,8 0 0 1 1022,81 H1299 A63,63 0 0 1 1362,144 V317 H1299 V141 H1219
+             V317 H1156 V141 H1077 V317 Z"/>
+    <path d="M1407,317 V63 A63,63 0 0 1 1470,0 H1551 V59 H1470 V81 H1551 V141 H1470 V317 Z"/>
+    <path d="M1636,81 H1741 A63,63 0 0 1 1804,144 V254 A63,63 0 0 1 1741,317 H1636
+             A63,63 0 0 1 1573,254 V144 A63,63 0 0 1 1636,81 Z
+             M1642,141 H1735 A8,8 0 0 1 1743,149 V250 A8,8 0 0 1 1735,258 H1642 A8,8 0 0 1 1634,250
+             V149 A8,8 0 0 1 1642,141 Z"/>
+    <path d="M1902,81 H2007 A63,63 0 0 1 2070,144 V254 A63,63 0 0 1 2007,317 H1902
+             A63,63 0 0 1 1839,254 V144 A63,63 0 0 1 1902,81 Z
+             M1908,141 H2001 A8,8 0 0 1 2009,149 V250 A8,8 0 0 1 2001,258 H1908 A8,8 0 0 1 1900,250
+             V149 A8,8 0 0 1 1908,141 Z"/>
+    <path d="M2108,81 H2278 A63,63 0 0 1 2341,144 V254 A63,63 0 0 1 2278,317 H2171 V393
+             A8,8 0 0 1 2163,401 H2116 A8,8 0 0 1 2108,393 Z
+             M2179,141 H2270 A8,8 0 0 1 2278,149 V250 A8,8 0 0 1 2270,258 H2179 A8,8 0 0 1 2171,250
+             V149 A8,8 0 0 1 2179,141 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: © 2026 les auteurs de namfoop-hat (AUTHORS.md)
+#
+# Demande à Software Heritage (archive publique d'Inria et de l'UNESCO) d'archiver le dépôt à
+# chaque fusion sur main et à chaque tag. L'archive date chaque version de façon indépendante de
+# GitHub : une preuve d'antériorité gratuite pour le droit d'auteur. Une panne de l'archive ne
+# fait pas échouer la fusion.
+
+name: archive
+
+on:
+  push:
+    branches: [main]
+    tags: ['*']
+  workflow_dispatch:
+
+jobs:
+  software-heritage:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: demander l'archivage
+        run: |
+          url="https://github.com/${GITHUB_REPOSITORY}"
+          curl -fsS -X POST "https://archive.softwareheritage.org/api/1/origin/save/git/url/${url}/" \
+            | tee reponse.json
+          echo
+          echo "Suivi : https://archive.softwareheritage.org/browse/origin/?origin_url=${url}"

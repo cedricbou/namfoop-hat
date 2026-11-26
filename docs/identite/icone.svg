@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"
+     role="img" aria-label="namfoop">
+  <title>namfoop — icône</title>
+  <!--
+    SPDX-License-Identifier: LicenseRef-TousDroitsReserves
+    SPDX-FileCopyrightText: © 2026 [NOM DU TITULAIRE], auteur de namfoop. Tous droits réservés.
+    Copie conforme de docs/identite/ du dépôt namfoop, qui fait référence.
+    Icône namfoop : le n du logo, blanc, entre deux chevrons cyan (lecture et retour).
+    La tuile noir d'encre fait partie de la marque ; hors de ses angles, le fond est transparent.
+    Couleurs de la charte : tuile #0F0F14, n blanc #FFFFFF, chevrons cyan #00F0FF.
+    Le n reprend les proportions de celui du logo, agrandi : fût 106, barre 101, angle haut
+    gauche presque droit, angle haut droit arrondi.
+    Tous droits réservés : utilisable pour parler de namfoop ou y renvoyer, pas pour un autre projet.
+  -->
+  <rect width="1024" height="1024" rx="224" fill="#0F0F14"/>
+  <g fill="#00F0FF">
+    <path d="M258,448 V576 L179,512 Z"/>
+    <path d="M765,448 V576 L844,512 Z"/>
+  </g>
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M311,710 V327 A13,13 0 0 1 324,314 H608 A106,106 0 0 1 714,420 V710 H608 V415 H417 V710 Z"/>
+</svg>

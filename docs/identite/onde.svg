@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381 290" width="381" height="290"
+     role="img" aria-label="onde namfoop">
+  <title>namfoop — onde seule</title>
+  <!--
+    SPDX-License-Identifier: LicenseRef-TousDroitsReserves
+    SPDX-FileCopyrightText: © 2026 [NOM DU TITULAIRE], auteur de namfoop. Tous droits réservés.
+    Copie conforme de docs/identite/ du dépôt namfoop, qui fait référence.
+    L'onde du logo, sans les lettres : pour les usages où le mot ne tient pas.
+    Même dessin que dans logo-sombre.svg : 7 barres de 33 de large, pas de 58, bouts arrondis,
+    symétriques autour de la plus haute. Magenta de la charte #FF007F, fond transparent.
+    Tous droits réservés : utilisable pour parler de namfoop ou y renvoyer, pas pour un autre projet.
+  -->
+  <g fill="#FF007F">
+    <rect x="0" y="128" width="33" height="34" rx="16.5"/>
+    <rect x="58" y="104" width="33" height="82" rx="16.5"/>
+    <rect x="116" y="63" width="33" height="164" rx="16.5"/>
+    <rect x="174" y="0" width="33" height="290" rx="16.5"/>
+    <rect x="232" y="63" width="33" height="164" rx="16.5"/>
+    <rect x="290" y="104" width="33" height="82" rx="16.5"/>
+    <rect x="348" y="128" width="33" height="34" rx="16.5"/>
+  </g>
+</svg>
