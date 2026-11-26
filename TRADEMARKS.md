@@ -5,12 +5,12 @@ SPDX-FileCopyrightText: 2026 les contributeurs de namfoop-hat
 
 # Nom et logo namfoop
 
-Le nom **namfoop** (et ses graphies : NamFoop, NAMFOOP), son logo, son icône, son onde et sa
-bannière (ceux de `docs/identite/` dans le dépôt namfoop) appartiennent à
-**[NOM DU TITULAIRE]**, particulier, et sont **réservés**.
+Le nom **NamFoop** (et ses graphies : namfoop, NAMFOOP), son logo, son icône, son onde et sa
+bannière (ceux de `docs/identite/` dans le dépôt namfoop) sont utilisés par leur auteur,
+**[NOM DU TITULAIRE]**, pour désigner ses projets, et sont **réservés**.
 
-La marque **n'est pas encore enregistrée** : son dépôt est en préparation. D'ici là, on n'écrit
-pas ®. Les droits d'auteur sur le logo et l'icône, eux, existent déjà, sans dépôt.
+Ils ne sont pas déposés comme marque : on n'écrit donc pas ®. Le logo, l'icône, l'onde et la
+bannière sont des œuvres protégées par le droit d'auteur, sans formalité.
 
 Nom et logo ne sont couverts par **aucune** des licences de ce dépôt : ni la CERN-OHL-S-2.0 de la carte, ni
 la GPL-3.0-or-later du firmware et des scripts, ni la CC-BY-SA-4.0 de la documentation. Ces licences
