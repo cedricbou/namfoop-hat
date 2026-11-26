@@ -34,4 +34,6 @@ date, et **remplace** la précédente au lieu de s'empiler.
 
 ## Les décisions
 
-Aucune pour l'instant : les études ouvertes sont listées dans l'épique de cadrage (#3).
+- [0001 · Chemin audio : deux codecs stéréo réglés par broches, sur deux lignes I2S du Pi](0001-deux-codecs-stereo-regles-par-broches.md)
+
+Les études encore ouvertes sont listées dans l'épique de cadrage (#3).
