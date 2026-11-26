@@ -35,8 +35,8 @@ docs/       cahier des charges, montage, mesures CC-BY-SA-4.0
 - Reprendre un fichier d'ailleurs : licence compatible avec le dossier, en-tête d'origine gardé,
   texte ajouté dans `LICENSES/`.
 - Rien ne versionne un son, un modèle, une IR, une police ni une fiche technique.
-- `[TITULAIRE — à confirmer]` : le titulaire du nom et le mainteneur du CLA ; ne pas le remplacer
-  sans l'accord de l'utilisateur.
+- `[NOM DU TITULAIRE]` : le titulaire du nom et le mainteneur du CLA, une personne physique ; ne
+  pas le remplacer sans l'accord de l'utilisateur. La marque n'est pas enregistrée : jamais de ®.
 
 ## Cycle
 
